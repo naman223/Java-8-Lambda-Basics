@@ -27,6 +27,17 @@ public class Person {
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
+
+	/*@Override
+	public int hashCode() {
+		return 1;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		return true;
+	}*/
+
 	public int getAge() {
 		return age;
 	}
@@ -39,6 +50,6 @@ public class Person {
 		return "Person [firstName=" + firstName + ", lastName=" + lastName + ", age=" + age + "]";
 	}
 	
-	
+
 	
 }

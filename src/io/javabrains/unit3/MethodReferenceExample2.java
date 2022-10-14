@@ -11,6 +11,9 @@ import io.javabrains.common.Person;
 public class MethodReferenceExample2 {
 
 	public static void main(String[] args) {
+		
+
+
 		List<Person> people = Arrays.asList(
 				new Person("Charles", "Dickens", 60),
 				new Person("Lewis", "Carroll", 42),
@@ -23,7 +26,7 @@ public class MethodReferenceExample2 {
 		System.out.println("Printing all persons");
 		performConditionally(people, p -> true, System.out::println); // p -> method(p)
 		
-				
+
 	}
 
 	private static void performConditionally(List<Person> people, Predicate<Person> predicate, Consumer<Person> consumer) {
